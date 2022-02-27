@@ -1,0 +1,66 @@
+List Of Notifications.
+
+Admin-
+	1)Event -working for when select super admin
+	2)Notice Board (Add,Update) -working for when select super admin
+	3)Add Wallet amount -not found any wallet option
+
+Student-
+	1)Event -working
+	2)Bank Payment Rejected -working
+	3)Fees Approved -working
+	4)Fees Assign. -working
+	5)Study Material Upload - working for add ,not working for update 
+	6)Notice Board (Add,Update) -working 
+	7)Homework-  working for add , not working for update 
+	8)Online Exam  -working for added 
+	9)Fees Payment 
+	10)Online Exam Publish -working
+	11)Wallet Approve Payment
+	12)Wallet Reject payment
+	13)Wallet Refund Payment
+	14)Wallet Reject Refund Payment
+
+Parent-
+	1)Event -working for added a event  , not working for update or modify a event
+	2)Bank Payment Rejected -working 
+	3)Fees Approve For Child -working
+	4)Fees Assign For Child -working
+	5)Notice Board (Add,Update)-working
+	6)Homework -working
+	7)Online Exam - working
+	8)Online Exam Publish -working
+	9)Wallet Approve Payment
+	10)Wallet Reject payment
+	11)Wallet Refund Payment
+	12)Wallet Reject Refund Payment
+
+Staff-
+	1)Event (Depends on role Selection) -working for add not working for update
+	2)Study Material Upload (Teacher Depends on Selection) -working
+	3)Notice Board (Depends on role Selection)- (Add,Update),  -working 
+	4)Leave Update (Depends on role Selection) -not showing
+	5)Online Exam Submit (Teacher) -working
+	6)Submit Homework (Teacher) -working student,parent
+	7)Add Wallet amount (Accounts)
+
+
+
+
+Issues Of Notifications.
+Admin- 
+1. Event notification not working when select teacher ,parent ,student                    Screenshot: https://prnt.sc/1xkh6y4
+2. Event not notifcation not showing when update or delete a notifcation 
+3. Notice board notification showing only for when select super admin                     ss :  https://prnt.sc/1xkjjq3Stu
+
+[4]-  Student pending payment's  should be notify on admin
+
+
+Student
+1. Event notfication not showing when update a event
+2. Notice notification not showing when update a notice
+3. Fix naming when assignment upload                     ss  https://prnt.sc/1xkr9kf
+4.Study Material Upload not showing when update a notification
+
+Staff
+1. leave update not showing

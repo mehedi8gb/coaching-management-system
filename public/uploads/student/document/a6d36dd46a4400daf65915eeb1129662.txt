@@ -1,0 +1,21 @@
+fm_fees_invoices
+Payment status not,
+
+fm_fees_invoice_chields
+type 1- 50
+type2- 100
+
+
+Transcation
+Total- 60
+type1 - 30
+type2 - 30
+after approve transcation fees invoice payment status partial
+fees_invoice chield
+type1 50 payment30 = due 20
+type2 100 payment30 = due 70
+
+Transcation Chield
+type - 1
+
+

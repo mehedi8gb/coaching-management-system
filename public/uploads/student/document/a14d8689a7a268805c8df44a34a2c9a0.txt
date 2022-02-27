@@ -1,0 +1,32 @@
+resources\views\backEnd\partials\sidebar.blade.php
+
+app\Http\Controllers\SmSystemSettingController.php
+
+routes\admin.php
+
+
+
+
+Subject Issue
+app\Http\Controllers\SmExaminationController.php
+app\Http\Controllers\CustomResultSettingController.php
+
+SmGrade
+ALTER TABLE `sm_marks_grades` CHANGE `gpa` `gpa` INT NULL DEFAULT NULL;
+ALTER TABLE `sm_temporary_meritlists` CHANGE `total_marks` `total_marks` INT NULL DEFAULT NULL;
+
+
+Remove admin.php
+        //Route::get('/sms-template-new', 'SmSystemSettingController@SmsTemplateNew')->name('sms-template-new')->middleware('userRolePermission:710');
+        //Route::post('/sms-template-new', 'SmSystemSettingController@SmsTemplateNewStore')->name('sms-template-new')->middleware('userRolePermission:711');
+
+
+Saas
+Modules\Saas\Resources\views\menu\Saas.blade.php
+resources\views\backEnd\partials\saas_menu.blade.php
+
+Test
+tests\Browser\Communicate\EmailTempleteTest.php
+
+Database
+Modules\RolePermission\Database\Migrations\2020_04_11_141636_create_infix_module_infos_table.php
